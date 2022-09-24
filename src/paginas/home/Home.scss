@@ -1,0 +1,81 @@
+.containerHome {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.listaDeLeis {
+    width: 70%;
+}
+
+.opcaoDeLei {
+    display: flex;
+    align-items: center;
+    color: var(--cor-secundaria);
+    font-size: 2.5em;
+    border: 5px solid var(--cor-secundaria);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.opcaoDeLei i {
+    font-size: 1em;
+}
+
+.opcaoDeLei label {
+    margin: 0 auto;
+}
+
+.opcaoDeLei:hover, .opcaoDeLei label:hover {
+    cursor: pointer;
+}
+
+// .listaTopicos {
+//     display: flex;
+//     flex-direction: column;
+//     width: 70%;
+// }
+
+// .opcaoTopico {
+//     display: flex;
+//     align-items: center;
+//     color: var(--cor-secundaria);
+//     font-size: 2.5em;
+//     border: 5px solid var(--cor-secundaria);
+//     border-radius: 10px;
+//     padding: 20px;
+//     margin: 10px;
+//     width: 100%;
+// }
+
+// .opcaoTopico label {
+//     margin: 0 auto;
+// }
+
+// .opcaoTopico i {
+//     margin-left: 15px;
+//     font-size: 1em;
+// }
+
+// .opcaoTopico:hover, .opcaoTopico label:hover {
+//     cursor: pointer;
+// }
+
+.containerWindows {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+.gifWindow {
+    height: 180px;
+    width: 220px;
+    border: 2px solid var(--cor-secundaria);
+    border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  background: var(--cor-primaria);
+  height: 100vh;
+  width: 265px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 0px 5px #333;
+  z-index: 100;
+  color: var(--cor-secundaria);
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  width: 265px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.user {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.containerLista {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.copy {
+  width: 100%;
+  text-align: center;
+}

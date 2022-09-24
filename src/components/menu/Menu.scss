@@ -1,0 +1,33 @@
+.listaMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.listaMenu a{
+    display: flex;
+    align-items: center;
+    color: var(--cor-secundaria);
+    text-decoration: none;
+    padding: 25px 5px;
+    font-size: 2em;
+    width: 100%;
+}
+
+.listaMenu a label {
+    margin-left: 35px;
+}
+
+.listaMenu a:hover{
+    box-shadow: inset -15px 0px 3px #fff;
+}
+
+.links i {
+    margin-left: 10px;
+    font-size: 23px;
+}
+
+.active a {
+    color: var(--cor-primaria);
+    background: var(--cor-secundaria);
+    box-shadow: inset -15px 0  #ddd;
+}
